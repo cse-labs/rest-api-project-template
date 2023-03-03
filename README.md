@@ -6,12 +6,14 @@ This is a template repository for quickly creating REST APIs using .NET Core, al
 
 * CI/CD pipeline: The template includes a pre-configured CI/CD pipeline using GitHub Actions. This pipeline automatically build, test and deploys your API on every push to the master branch. It also provide workflows to validate PRs, API contracts and push the images to ACR.
 * Repository structure: A well-structured repository makes it easy for you and your team to collaborate and maintain the codebase. The template follows industry-standard practices for project organization.
-* Load testing
-* Integrations test
+* Dockerfiles and GitHub Codespaces. It provides container configurations for deploying the app, and also starting working in the project on the cloud by using a pre-configured GitHub Codespace environment.
+* Load testing. It provides options to do basic load testing for verification.
+* System and integration testing. Provides a configured project to do common system and integration testing. It also provides tools to generate code coverage.
+* API Contract. It provides tools and guidance on how to design your API contracts and generate the OpenApi specs. This is based in [Microsoft TypeSpec](https://microsoft.github.io/typespec/).
 
 ## Out of scope
 
-This template does not provide any opinion or code samples regarding API guidelines, logging, exception handling, input validation. It is also out-of-the-scope of this template to provide any guidance in spearation of concerns, dependency injection or unit testing. The API sample project is generated using `dotnet new` command without any modification. 
+This template does not provide any opinion or code samples regarding API guidelines, logging, exception handling, input validation. It is also out-of-the-scope of this template to provide any guidance in spearation of concerns, dependency injection or unit testing. The API sample project is generated using `dotnet new` command without any modification. Also altought provides load testing for a quick verification, a production-ready project would benefit of other tools like [Apache JMeter](https://jmeter.apache.org/) or [Azure Load Testing](https://learn.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-testing).
 
 If you are interesting in help in those areas we recommend to follow [Azure API guidelines](https://github.com/microsoft/api-guidelines/), KiC samples, and [Microsoft Learn](https://learn.microsoft.com).
 
