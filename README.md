@@ -9,9 +9,11 @@ This is a template repository for quickly creating REST APIs using .NET Core, al
 * Load testing
 * Integrations test
 
-## What is not included
+## Out of scope
 
+This template does not provide any opinion or code samples regarding API guidelines, logging, exception handling, input validation. It is also out-of-the-scope of this template to provide any guidance in spearation of concerns, dependency injection or unit testing. The API sample project is generated using `dotnet new` command without any modification. 
 
+If you are interesting in help in those areas we recommend to follow [Azure API guidelines](https://github.com/microsoft/api-guidelines/), KiC samples, and [Microsoft Learn](https://learn.microsoft.com).
 
 ## Getting Started
 
