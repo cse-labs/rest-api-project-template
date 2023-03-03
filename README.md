@@ -1,14 +1,26 @@
-# Project
+# .NET Core REST API Template
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This is a template repository for quickly creating REST APIs using .NET Core. It provides out-of-the-box ready to use CI/CD, a well-structured repository, best practices, and engineering fundamentals to help customers accelerate their project's start.
 
-As the maintainer of this project, please make a few updates:
+## Features
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+* CI/CD pipeline: The template includes a pre-configured CI/CD pipeline using GitHub Actions. This pipeline automatically build, test and deploys your API on every push to the master branch. It also provide workflows to validate PRs, API contracts and push the images to ACR.
+* Repository structure: A well-structured repository makes it easy for you and your team to collaborate and maintain the codebase. The template follows industry-standard practices for project organization.
+* Load testing
+* Integrations test
+
+## What is not included
+
+
+
+## Getting Started
+
+To use this template, click the "Use this template" button at the top of the repository page. This will create a new repository with the same structure and files as this template. From there, you can customize the code and configure the CI/CD pipeline to meet your needs.
+
+## References
+
+* REST APIs have become increasingly popular in recent years due to their simplicity, scalability, and flexibility. According to [API Fortress](https://saucelabs.com/products/api-testing), the global API market is expected to grow from $613.8 million in 2019 to $1.7 billion in 2024.
+* A study by [SmartBear](https://smartbear.com/learn/api-design/what-is-an-api-economy/) found that 85% of companies surveyed have an API strategy in place, and 75% of companies believe APIs will play a strategic role in their business growth.
 
 ## Contributing
 
