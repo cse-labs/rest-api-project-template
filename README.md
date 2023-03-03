@@ -13,9 +13,19 @@ This is a template repository for quickly creating REST APIs using .NET Core, al
 
 ## Out of scope
 
-This template does not provide any opinion or code samples regarding API guidelines, logging, exception handling, input validation. It is also out-of-the-scope of this template to provide any guidance in spearation of concerns, dependency injection or unit testing. The API sample project is generated using `dotnet new` command without any modification. Also altought provides load testing for a quick verification, a production-ready project would benefit of other tools like [Apache JMeter](https://jmeter.apache.org/) or [Azure Load Testing](https://learn.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-testing).
+This template does not provide any opinion or guidance in:
 
-If you are interesting in help in those areas we recommend to follow [Azure API guidelines](https://github.com/microsoft/api-guidelines/), KiC samples, and [Microsoft Learn](https://learn.microsoft.com).
+* Code samples (including controllers, models, etc.)
+* API guidelines
+* Logging, exception handling, input validation. 
+* Code conventions (ex. StyleCop rules).
+* Design patterns or code best practices (ex. separation of concerns, dependency injection).
+* Unit Testing.
+
+
+The API sample project is generated using `dotnet new` command without any modification. It provides load testing for a quick verification, but a production-ready project would benefit of other tools like [Apache JMeter](https://jmeter.apache.org/) or [Azure Load Testing](https://learn.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-testing) for testing specific scenarios.
+
+If you are interesting in help in the out-of-scope areas we recommend to follow [Azure API guidelines](https://github.com/microsoft/api-guidelines/), KiC samples, and [Microsoft Learn](https://learn.microsoft.com).
 
 ## Getting Started
 
