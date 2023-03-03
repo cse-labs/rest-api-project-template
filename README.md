@@ -1,6 +1,6 @@
-# .NET Core REST API Template
+# REST API Bootstrap Template
 
-This is a template repository for quickly creating REST APIs using .NET Core. It provides out-of-the-box ready to use CI/CD, a well-structured repository, best practices, and engineering fundamentals to help customers accelerate their project's start.
+This is a template repository for quickly creating REST APIs using .NET Core, altought it can be reused on other languages and technologies the main focus is .NET Core. It provides out-of-the-box ready to use CI/CD, a well-structured repository, best practices, and engineering fundamentals to help customers accelerate their project's start.
 
 ## Features
 
